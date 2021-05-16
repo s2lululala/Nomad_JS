@@ -1,4 +1,4 @@
-const title = document.querySelector("#title");
+const title = document.querySelector(".js-title");
 
 const CLICKED_CLASS = "clicked";
 
@@ -8,6 +8,7 @@ function handleClick(){
 
 function init(){
     title.addEventListener("mouseenter", handleClick);
+    title.addEventListener("mouseout", handleClick);
 }
 
 init();

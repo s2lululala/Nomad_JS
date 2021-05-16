@@ -1,15 +1,18 @@
 body{
-  background-color: pink;
+  background-color: #F7DBF2;
 }
 
 body {
-    color: #247DCB;
+    color: gray;
 }
 .btn {
     cursor: pointer;
 }
+.title {
+    color: #AF7AC5;
+}
 .clicked {
-    color: #0A1A29;
+    color: #8E44AD;
 }
 
 .form,
