@@ -1,24 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Song+Myung&family=Stylish&display=swap');
+
 body {
+    text-align: left;
     background-color: #5e5b5d;
-    color: gray;
+    color: black;
+    font-family: 'Lora', serif;
 }
-.btn {
-    cursor: pointer;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .title {
-    color: #AF7AC5;
+    color: #e2baf3;
+    font-size: 6vw;
+    text-shadow: 1px 1px 5px #000;
+    margin-top: 10%;
 }
 .clicked {
-    color: #8E44AD;
+    color: #ffffff;
+}
+
+.clock {
+    color: #ffffff;
+    font-size: 4vw;
+    text-shadow: 1px 1px 5px #000;
 }
 
 .form,
 .greetings {
+    font-size: 2vw;
     display: none;
 }
 
 .showing {
+    font-size: 1.5vw;
     display: block;
+}
+.todolist {
+    font-size: 1vw;
 }
 
 @keyframes fadeIn {
