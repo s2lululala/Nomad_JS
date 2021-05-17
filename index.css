@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Song+Myung&family=Stylish&display=swap');
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     text-align: left;
     background-color: #5e5b5d;
@@ -18,7 +23,6 @@ body {
     color: #e2baf3;
     font-size: 6vw;
     text-shadow: 1px 1px 5px #000;
-    margin-top: 10%;
 }
 .clicked {
     color: #ffffff;
